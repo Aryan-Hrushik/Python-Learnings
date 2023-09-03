@@ -1,0 +1,14 @@
+print function overriding 
+common type
+print("Hello") // prints the line Hello and moves the cursor to new line as the print function defination internally 
+consits of a value called "end" which has a default value to end the present line and moves teh cursor to new line.
+But we can override this by assigning a vlue to end and stop the cursor in the present line itself
+
+print("hello",end="") // stops the cursor from moving to next line as we assinged end with a vlaue
+the next line gets printed beside hello itself.
+
+print("hello",end="")
+print("HI")
+
+OUTPUT:
+helloHI
